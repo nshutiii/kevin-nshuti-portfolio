@@ -407,6 +407,45 @@ section {
     font-size: 0.8rem;
 }
 
+.project-links {
+    padding: 1rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 2px solid #3498db;
+}
+
+.project-link:hover {
+    background: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.demo-link {
+    background: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+
+.demo-link:hover {
+    background: #3498db;
+    color: white;
+}
+
 /* Contact Section */
 .contact {
     background: #f8f9fa;
